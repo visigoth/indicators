@@ -6,6 +6,7 @@
 #if defined __has_include
 #if __has_include (<codecvt>)
 #define INDICATORS_HAVE_CODECVT 1
+#include <codecvt>
 #endif
 #endif
 #include <cstdlib>
